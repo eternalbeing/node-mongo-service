@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gridfs-stream": "^0.5.34",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^3.6.6"
+  }
+}
