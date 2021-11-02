@@ -6,8 +6,6 @@ const { Index } = require("./mongo-index");
 const { Fetch } = require("./fetch");
 
 const mongoDbUri = "mongodb://localhost/";
-const DB_DOCUMENTS = "documents";
-const COLLECTION_DOCUMENT = "document";
 
 const main = async () => {
   let client;
