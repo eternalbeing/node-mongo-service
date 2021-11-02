@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 const { document } = require("./documentModel");
 const { Insert } = require("./insert");
 const { Update } = require("./update");
-const { Index } = require("./index");
+const { Index } = require("./mongo-index");
 
 const mongoDbUri = "mongodb://localhost/";
 const DB_DOCUMENTS = "documents";
